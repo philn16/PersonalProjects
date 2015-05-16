@@ -1,0 +1,21 @@
+void sayhi();
+long factorial(long num);
+int findSize(char *p);
+int CharCount(char* equation, char chartype, int begin, int end);
+double parse(char* cat, int begin, int end);
+int find(char* stringer, char cat, int start, int end);
+int Rfind(char* stringer, char cat, int start, int end);
+
+void locs(char* equation,int* cat);
+void toDubbs(char* equation, double* thedubs,bool* sigs);
+void RightParentasisCorrect(char* equation);
+void ExpEval(double* thedubs, char* equation, bool* sigs,int begin, int end);
+void MulDivEval(double* thedubs, char* equation, bool* sigs,int begin, int end);
+void PlusMinusEval(double* thedubs, char* equation, bool* sigs,int begin, int end);
+double solve(double* thedubs,char* equation,bool* sigs,int begin, int end);
+int PlCount(char* equation,int size);
+double anss(char* equation);
+void funcEval(int l1, int l2,char* equation,bool* sigs, double* thedubs);
+double sinus(double num);
+void clear(char* somestring, int ammount);
+void toString(double ans, char* answer, int display);
